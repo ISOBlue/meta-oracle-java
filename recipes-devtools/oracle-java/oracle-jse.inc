@@ -2,8 +2,8 @@ LICENSE_FLAGS = "oracle_java"
 LICENSE = "Oracle_Binary_Code_License_Agreement"
 LIC_FILES_CHKSUM = "\
 	file://${JDK_JRE}${PV}_${PV_UPDATE}/LICENSE;md5=98f46ab6481d87c4d77e0e91a6dbc15f \
-	file://${JDK_JRE}${PV}_${PV_UPDATE}/COPYRIGHT;md5=3dc1bfbd5bed75d650ad0506a0df5930 \
-	file://${JDK_JRE}${PV}_${PV_UPDATE}/THIRDPARTYLICENSEREADME.txt;md5=745d6db5fc58c63f74ce6a7d4db7e695 \
+	file://${JDK_JRE}${PV}_${PV_UPDATE}/COPYRIGHT;md5=a762796b2a8989b8952b653a178607a1 \
+	file://${JDK_JRE}${PV}_${PV_UPDATE}/THIRDPARTYLICENSEREADME.txt;md5=cd63a2745cdfc4e6eb7b40a16afc5326 \
 	"
 
 FETCHCMD_wget_append = " --no-check-certificate --no-cookies --header 'Cookie: oraclelicense=accept-securebackup-cookie' "
