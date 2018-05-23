@@ -1,11 +1,11 @@
-PV_UPDATE = "131"
+PV_UPDATE = "171"
 BUILD_NUMBER = "11"
 
 require oracle-jse-jdk.inc
 
-SRC_URI = "http://download.oracle.com/otn-pub/java/jdk/8u${PV_UPDATE}-b${BUILD_NUMBER}/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u${PV_UPDATE}-linux-arm32-vfp-hflt.tar.gz;downloadfilename=jdk-8u${PV_UPDATE}-linux-arm32-vfp-hflt.tar.gz"
+SRC_URI = "http://download.oracle.com/otn-pub/java/jdk/8u${PV_UPDATE}-b${BUILD_NUMBER}/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u${PV_UPDATE}-linux-arm32-vfp-hflt.tar.gz;downloadfilename=jdk-8u${PV_UPDATE}-linux-arm32-vfp-hflt.tar.gz"
 
-SRC_URI[md5sum] = "95d8954b1d53c08daa854153bae3a004"
-SRC_URI[sha256sum] = "4d2677261715e9f0e44972517cf22ae40c69ad4dd1e4c34c88127462b13d4949"
+SRC_URI[md5sum] = "d27f60afd0ef12ffb0cb5b528b20af88"
+SRC_URI[sha256sum] = "80b7318c54c35889624d573966bb68fbd0ef8b88dfe955debbde3a1e6edd11af"
 
 COMPATIBLE_HOST = "(arm.*-linux)"
